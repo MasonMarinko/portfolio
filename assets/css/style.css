@@ -35,7 +35,6 @@ header h1 {
     color: var(--secondary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border-bottom: 2px solid;
 }
 
 header a {
