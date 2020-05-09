@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #151e96;
+    --secondary-color: #03dffc;
+    --third-color:#2a607c
+}
+
+/* Body Font and Color */
+body {
+    font-family: Helvetica, Arial, 'sans-serif';
+    color: var(--primary-color);
+}
+
+header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 35px;
+    background-color: #2a607c;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-bottom: 2px solid;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.hero {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Family Photo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.hero h2 {
+    font-style: italic;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 45px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-bottom: 7px solid;
+}
+
+.section-title {
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-right: 3px solid;
+}
+
+.flex-box {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.side-titles {
+    float: left;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+}
+
+#about-me {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+#about-me h2 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#my-work {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#my-work h2 {
+    height: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#contact-me {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#contact-me h2 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#contact-me ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+#contact-me ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.55vw;
+    border-bottom: ridge;
+}
+
+
+
+
