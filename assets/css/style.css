@@ -62,9 +62,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
+    color: var(--primary-color);
     text-shadow: none;
 }
 
@@ -114,6 +112,7 @@ header nav ul li a:hover {
     align-items: center;
 }
 
+/* About Me Sidebar and About Me Text */
 #about-me {
     float: left;
     width: 100%;
@@ -138,7 +137,7 @@ header nav ul li a:hover {
     font-size: 1.65vw;
     line-height: 1.65em;
 }
-
+/* My Work Side Bar*/
 #my-work {
     float: left;
     width: 100%;
@@ -154,6 +153,7 @@ header nav ul li a:hover {
     padding-right: 10px;
 }
 
+/* Contact Me Sidebar */
 #contact-me {
     float: left;
     width: 100%;
