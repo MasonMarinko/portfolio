@@ -223,7 +223,7 @@ header nav ul li a:hover {
 }
 
 .pastel {
-    background-image: url("../images/pastel.jpg");
+    background-image: url("../images/Pastel.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 3 / span 4;
@@ -236,7 +236,7 @@ header nav ul li a:hover {
 }
 
 .calculator {
-    background-image: url("../images/calculator.jpg");
+    background-image: url("../images/Calculator.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 4 / span 2;
@@ -249,7 +249,7 @@ header nav ul li a:hover {
 }
 
 .led {
-    background-image: url("../images/led.jpg");
+    background-image: url("../images/LED.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 1 / span 3;
@@ -278,3 +278,5 @@ h4 {
 .grid-item:hover {
     opacity: .8 ;
 }
+
+/* Media Queries Start */
