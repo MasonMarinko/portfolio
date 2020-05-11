@@ -68,5 +68,9 @@ URL For Repository: https://github.com/MasonMarinko/portfolio
 
     - Entire page when viewed on a cell phone (Iphone X Specifically), header, titles, text, and grid re size in order to fit and easier to read.
 
+ ![image](./assets/images/contactme.png)
+
+    - Contact me section has 5 contact options, 4 links. Phone number just states my current phone number. Email address takes you to default email service and puts in the email address automatically. Github, LinkedIn, and Twitter all take you to my current profiles.
+
   
  
