@@ -286,11 +286,11 @@ header nav ul li a:hover {
 }
 
 /* Media Queries Start */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
 
     header h1 {
         font-weight: bold;
-        font-size: 36px;
+        font-size: 6.0vw;
         color: var(--secondary-color);
         margin: 0;
         text-shadow: 0 0 10px rgba(0,0,0,1.0);
@@ -313,12 +313,145 @@ header nav ul li a:hover {
     header nav ul li a {
         padding: 10px 15px;
         font-weight: lighter;
-        font-size: 3.00vw;
+        font-size: 4.00vw;
         text-shadow: 0 0 10px rgba(0,0,0,0.5)
     }
 
     .section-title {
         width: 40%;
+        align-items: center;
+    }
+
+    #about-me {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    #about-me h2 {
+        text-align: center;
+        border-bottom: 3px solid;
+        border-right: none;
+        padding-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 3.5vw;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 150px;
+    }
+
+    .side-titles {
+        float: none;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 50px;
+    }
+
+    #my-work {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        float: none;
+        padding-top: 150px;
+    }
+
+    #my-work h2 {
+        text-align: center;
+        border-bottom: 3px solid;
+        border-right: none;
+        padding-top: 30px;
+    }
+
+    .work-grid-container {
+        display: grid;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 450px;
+        color: var(--secondary-color);
+        font-size: 1.2rem;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #my-work h3 {
+        font-size: 20px;
+    }
+    
+    #my-work h4 {
+        font-size: 15px;
+    }
+
+    .grid-text {
+            margin-bottom: 20px;
+            background-color: var(--third-color);
+    }
+
+    #contact-me {
+        text-align: center;
+        border-bottom: 3px solid;
+        border-right: none;
+        padding-top: 30px;
+    }
+
+    #contact-me h2 {
+        text-align: center;
+        border-bottom: 3px solid;
+        border-right: none;
+        padding-top: 90px;
+    }
+
+    #contact-me ul {
+        list-style: none;
+        flex-wrap: ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 150px;
+    }
+
+    #contact-me ul li a {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-size: 2.75vw;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-weight: bold;
+        color: var(--secondary-color);
+        margin: 0;
+        text-shadow: 0 0 10px rgba(0,0,0,1.0);
+        text-align: center;
+    }
+
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        padding: 20px 35px;
+        background-color: #2a607c;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        color: #ffffff;
+        z-index: 9999;
+    }
+
+    header nav ul li a {
+        font-weight: lighter;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5)
+    }
+
+    .section-title {
+        width: 100%;
         align-items: center;
     }
 
@@ -346,6 +479,7 @@ header nav ul li a:hover {
         width: 100%;
         height: 100px;
         padding-bottom: 50px;
+        padding-right: none;
     }
 
     #my-work {
@@ -416,5 +550,4 @@ header nav ul li a:hover {
         color: var(--primary-color);
         font-size: 2.75vw;
     }
-
 }
