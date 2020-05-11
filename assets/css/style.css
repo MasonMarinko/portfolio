@@ -195,6 +195,7 @@ header nav ul li a:hover {
     font-size: 1.2rem;
     row-gap: 10px;
     column-gap: 10px;
+    line-height: 25px;
 }
 
 /* Work Options Begin */
@@ -270,6 +271,7 @@ header nav ul li a:hover {
 
 #my-work h4 {
     font-size: 1.5vw;
+    font-weight: lighter;
 }
 
 .grid-text {
@@ -352,7 +354,7 @@ header nav ul li a:hover {
     }
 
     #my-work {
-        display: flex;
+        display: grid;
         flex-wrap: wrap;
         width: 100%;
         float: none;
@@ -483,7 +485,7 @@ header nav ul li a:hover {
     }
 
     #my-work {
-        display: flex;
+        display: grid;
         flex-wrap: wrap;
         width: 100%;
         float: none;
