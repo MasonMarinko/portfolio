@@ -14,7 +14,7 @@ URL For Repository: https://github.com/MasonMarinko/portfolio
 ## WHEN I load their portfolio
 ## THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
 
-    - Name is first thing on page, photo is most recent of myself and my family, all links work properly, including Resume which leads to Google Drive. Pictures of previous work link to my work as well as has placeholders for future work.
+    - Name is first thing on page, photo is most recent of myself and my family, all links work properly, including Resume which opens up in word once clicked. Pictures of previous work link to my work as well as has placeholders for future work.
 
 ## WHEN I click one of the links in the navigation
 ## THEN the UI scrolls to the corresponding section
@@ -44,7 +44,7 @@ URL For Repository: https://github.com/MasonMarinko/portfolio
 
 ![image](./assets/images/header.png)
 
-    - Navigation bar contains header, All links take you to appropriate links on page, Resume takes you to my resume on Google Drive.
+    - Navigation bar contains header, All links take you to appropriate links on page, Resume button opens up my resume automatically.
 
 
 
