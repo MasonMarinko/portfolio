@@ -42,7 +42,7 @@ URL For Repository: https://github.com/MasonMarinko/portfolio
     - Website is proficient on PC Browser, small screen PC Browser, Tablet, and Smartphones. When going smaller the website completely transforms in order to make space and have a cleaner design.
 
 
-![image]('./assets/images/header.png')
+![image](./assets/images/header.png)
 
 
  
