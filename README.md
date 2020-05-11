@@ -1,6 +1,12 @@
 # portfolio
 Mason Marinko Portfolio
 
+URL For Website: https://masonmarinko.github.io/portfolio/
+
+URL For Repository: https://github.com/MasonMarinko/portfolio
+
+
+
 GIVEN I need to sample a potential employee's previous work
 
     - Website has all of my current portfolio information, including Name, Photograph (and my family), brief section about me and how I can help your business, past projects as well as contact information (Phone Number, Email Address, Github, LinkedIn, and Twitter)
@@ -20,8 +26,8 @@ THEN the UI scrolls to a section with titled images of the developer's applicati
 
     - All top links function properly, selecting My Work will lead you to the work section of my page which includes thumbnail pictures, text indicating what each project was named as well as the disciplines required to finish said job.
 
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
+## WHEN I am presented with the developer's first application
+## THEN that application's image should be larger in size than the others
 
     - Run-Buddy which is my first website build (and ongoing) has the largest photo/clickable area than all the rest.
 
