@@ -44,5 +44,29 @@ URL For Repository: https://github.com/MasonMarinko/portfolio
 
 ![image](./assets/images/header.png)
 
+    - Navigation bar contains header, All links take you to appropriate links on page, Resume takes you to my resume on Google Drive.
 
+
+
+![image](./assets/images/header2.png)
+
+    - This header image shows what happens when it is transformed into a smaller browser, tablet or cell phone. 
+
+![image](./assets/images/header2.png)
+
+    - Hero image of myself and my family, resizes properly depending on platform, also has a title feature for accessibility. When mouse is held over image it will display the title which reads, "Marinko Family Picture, from left to right, Mason, Knighton, Brittany and Maddox".
+
+ ![image](./assets/images/mainbody.png)
+
+    - Main body of page when at normal resolution, About Me, Work, and Contact is located to left of body.
+
+ ![image](./assets/images/mainbody2.png)
+
+    - This image shows the main body of webpage when reduced to smaller browser, tablet or cell phone. About Me, Work, and Contact Me moves to top of body. Header also changes, Mason Marinko Portfolio rotates above links.
+
+ ![image](./assets/images/cellphone.png)
+
+    - Entire page when viewed on a cell phone (Iphone X Specifically), header, titles, text, and grid re size in order to fit and easier to read.
+
+  
  
