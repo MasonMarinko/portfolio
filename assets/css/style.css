@@ -242,7 +242,7 @@ header nav ul li a:hover {
 }
 
 .calculator {
-    background-image: url("../images/Calculator.jpg");
+    background-image: url("../images/taskinator.png");
     background-size: cover;
     background-position: center;
     grid-column: 4 / span 2;
