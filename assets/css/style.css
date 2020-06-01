@@ -229,7 +229,7 @@ header nav ul li a:hover {
 }
 
 .pastel {
-    background-image: url("../images/Pastel.jpg");
+    background-image: url("../images/scheduler.png");
     background-size: cover;
     background-position: center;
     grid-row: 3 / span 4;
