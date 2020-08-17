@@ -216,7 +216,7 @@ header nav ul li a:hover {
 }
 
 .horiseon {
-    background-image: url("../images/runbuddy.png");
+    background-image: url("../images/passwordgenerator.png");
     background-size: cover;
     background-position: center;
     grid-row: 1 / span 2;
@@ -255,7 +255,7 @@ header nav ul li a:hover {
 }
 
 .led {
-    background-image: url("../images/passwordgenerator.png");
+    background-image: url("../images/media_collector.png");
     background-size: cover;
     background-position: center;
     grid-column: 1 / span 3;
